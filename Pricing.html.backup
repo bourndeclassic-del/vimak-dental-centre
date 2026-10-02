@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Appointments &amp; Dental Care | Contact Vimak Dental Centre</title>
+        <meta name="description"
+            content="Book a dental appointment or contact Vimak Dental Centre in Nairobi (ICEA Building) and Thika (Maisha Heights). Request treatment pricing and consultation details.">
+
+        <!-- Open Graph Metadata -->
+        <meta property="og:title" content="Appointments & Dental Care | Vimak Dental Centre">
+        <meta property="og:description"
+            content="Book an appointment or contact Vimak Dental Centre in Nairobi and Thika. Open Monday–Saturday 8:00 AM–8:00 PM and Sunday 8:00 AM–5:00 PM.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="img/vimak-logo-hd.png">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/pricing.css">
+
+        <link rel="shortcut icon" href="img/download (35).png" type="image/png">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <nav class="navbar main-nav fixed-top navbar-expand-lg" aria-label="Main Navigation">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <!-- Logo -->
+                    <a href="index.html" class="brand-logo" aria-label="Vimak Dental Centre Home">
+                        <img src="img/vimak-logo.svg" alt="Vimak Dental Centre - Something to smile about" class="brand-logo-img">
+                    </a>
+
+                    <!-- Desktop Menu -->
+                    <ul class="nav d-none d-lg-flex align-items-center gap-1">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Whyus.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="DentalSolutions.html">Dental Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="Pricing.html#contact">Contact</a></li>
+                    </ul>
+
+                    <div class="d-none d-lg-flex align-items-center gap-2">
+                        <a href="tel:+254720285819" class="btn btn-vimak-outline-dark btn-sm px-3">
+                            <i class="bi bi-telephone-fill"></i> 0720 285 819
+                        </a>
+                        <a href="#book-appointment" class="btn btn-vimak-red px-4">
+                            BOOK APPOINTMENT
+                        </a>
+                    </div>
+
+                    <!-- Burger Button (Mobile Only) -->
+                    <button class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu"
+                        aria-controls="mobileMenu"
+                        aria-label="Toggle navigation menu">
+                        <i class="bi bi-list fs-1"></i>
+                    </button>
+
+                </div>
+            </nav>
+
+            <!-- Offcanvas Mobile Menu -->
+            <div class="offcanvas offcanvas-end vimak-offcanvas" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+                <div class="offcanvas-header">
+                    <a href="index.html" class="brand-logo" id="mobileMenuLabel">
+                        <img src="img/vimak-logo.svg" alt="Vimak Dental Centre Logo" class="brand-logo-img">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close menu"></button>
+                </div>
+
+                <div class="offcanvas-body d-flex flex-column justify-content-between">
+                    <div>
+                        <ul class="navbar-nav gap-1">
+                            <li><a class="nav-link" href="index.html">Home</a></li>
+                            <li><a class="nav-link" href="Whyus.html">About</a></li>
+                            <li><a class="nav-link" href="service.html">Services</a></li>
+                            <li><a class="nav-link" href="team.html">Our Team</a></li>
+                            <li><a class="nav-link" href="DentalSolutions.html">Dental Solutions</a></li>
+                            <li><a class="nav-link active" href="Pricing.html#contact">Contact</a></li>
+                        </ul>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <a href="#book-appointment" class="btn btn-vimak-red w-100">
+                                <i class="bi bi-calendar2-check"></i> BOOK APPOINTMENT
+                            </a>
+                            <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                                target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp w-100">
+                                <i class="bi bi-whatsapp"></i> WHATSAPP US
+                            </a>
+                            <a href="tel:+254720285819" class="btn btn-vimak-cyan w-100">
+                                <i class="bi bi-telephone-fill"></i> CALL 0720 285 819
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="border-top pt-3 mt-4 small text-muted">
+                        <p class="mb-1 fw-bold text-dark"><i class="bi bi-geo-alt-fill text-primary"></i> Nairobi &amp; Thika Clinics</p>
+                        <p class="mb-1">Mon–Sat: 8:00 AM – 8:00 PM</p>
+                        <p class="mb-0">Sunday: 8:00 AM – 5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero-section d-flex align-items-center">
+                <div class="container text-center">
+                    <span class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>Book a Visit &bull; Nairobi &amp; Thika</span>
+                    </span>
+
+                    <h1 class="hero-title">
+                        Appointments &amp; Dental Care
+                    </h1>
+
+                    <p class="hero-text">
+                        Schedule your dental check-up, request treatment pricing information, or reach our Nairobi and Thika clinics directly by phone or WhatsApp.
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="#book-appointment" class="btn hero-btn px-4 py-2">
+                            <i class="bi bi-calendar2-check"></i> Book an Appointment
+                        </a>
+                        <a href="#contact" class="btn btn-vimak-outline px-4 py-2">
+                            <i class="bi bi-geo-alt-fill"></i> Clinic Locations &amp; Hours
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How Dental Care & Treatment Pricing Works -->
+            <section class="container py-5">
+                <div class="text-center mb-5">
+                    <span class="section-tag">Transparent Care Planning</span>
+                    <h2 class="fw-bold">Dental Consultations &amp; Treatment Estimates</h2>
+                    <p class="section-subtitle">
+                        Because every patient's dental condition is unique, treatment fees depend on a clinical examination. Contact Vimak Dental Centre directly for current consultation and procedure pricing.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Care Card 1: Preventive & Routine Visits -->
+                    <div class="col-md-4">
+                        <div class="price-card">
+                            <div class="service-icon-wrap">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+                            <h5 class="fw-bold">Preventive &amp; Routine Care</h5>
+                            <p class="text-muted small">Check-ups, oral hygiene &amp; children's dentistry</p>
+
+                            <div class="my-2">
+                                <span class="client-confirm-tag"><i class="bi bi-info-circle"></i> Contact Clinic for Current Rates</span>
+                            </div>
+
+                            <ul class="price-list">
+                                <li><i class="bi bi-check-circle-fill"></i> Comprehensive dental examination</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Full-mouth scaling &amp; polishing</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Topical fluoride &amp; fissure sealants</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Paediatric dental check-ups</li>
+                            </ul>
+
+                            <a href="#book-appointment" class="btn price-btn">Book Preventive Visit</a>
+                        </div>
+                    </div>
+
+                    <!-- Care Card 2: Restorative & Endodontic Care -->
+                    <div class="col-md-4">
+                        <div class="price-card popular">
+                            <span class="badge-popular">Individual Assessment</span>
+
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-shield-plus"></i>
+                            </div>
+                            <h5 class="fw-bold">Restorative &amp; Root Canal Care</h5>
+                            <p class="text-muted small">Tooth preservation, fillings &amp; crowns</p>
+
+                            <div class="my-2">
+                                <span class="client-confirm-tag"><i class="bi bi-info-circle"></i> Priced Following Clinical Exam</span>
+                            </div>
+
+                            <ul class="price-list">
+                                <li><i class="bi bi-check-circle-fill"></i> Tooth fillings &amp; restorations</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Root canal treatment (endodontics)</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Dental crowns, bridges &amp; dentures</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Simple extractions &amp; disimpactions</li>
+                            </ul>
+
+                            <a href="#book-appointment" class="btn price-btn">Request Restorative Consultation</a>
+                        </div>
+                    </div>
+
+                    <!-- Care Card 3: Orthodontics, Implants & Aesthetic Care -->
+                    <div class="col-md-4">
+                        <div class="price-card">
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-stars"></i>
+                            </div>
+                            <h5 class="fw-bold">Specialized &amp; Orthodontic Care</h5>
+                            <p class="text-muted small">Braces, dental implants &amp; smile care</p>
+
+                            <div class="my-2">
+                                <span class="client-confirm-tag"><i class="bi bi-info-circle"></i> Tailored Treatment Quotation</span>
+                            </div>
+
+                            <ul class="price-list">
+                                <li><i class="bi bi-check-circle-fill"></i> Orthodontics (braces alignment)</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Dental implant evaluations</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Aesthetic / cosmetic consultations</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Step-by-step treatment plan review</li>
+                            </ul>
+
+                            <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20would%20like%20to%20inquire%20about%20consultation%20and%20treatment%20pricing."
+                                target="_blank" rel="noopener noreferrer" class="btn price-btn">Inquire on WhatsApp</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Client Confirmation Notice for Official Tariffs / Insurance -->
+                <div class="p-4 rounded-4 bg-white border mt-4 shadow-sm">
+                    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+                        <div>
+                            <span class="client-confirm-tag mb-2"><i class="bi bi-pencil-square"></i> [CLIENT TO CONFIRM: Official Price Schedule &amp; Insurance Partnerships]</span>
+                            <p class="small text-muted mb-0">
+                                Official consultation fees, payment methods, and approved insurance/corporate medical partners can be added here once confirmed by Vimak Dental Centre. For immediate fee inquiries, please call <strong>0720 285 819</strong> or <strong>020 222 89000</strong>.
+                            </p>
+                        </div>
+                        <a href="tel:+254720285819" class="btn btn-sm btn-vimak-outline-dark">
+                            <i class="bi bi-telephone-fill"></i> Call Reception
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Book Appointment & Clinic Contact Section -->
+            <section class="py-5" style="background: #EAF3FA;" id="book-appointment">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <span class="section-tag">Schedule Your Visit</span>
+                        <h2 class="fw-bold">Book an Appointment or Contact Our Clinics</h2>
+                        <p class="section-subtitle">
+                            Complete the form below to request an appointment, or reach our Nairobi and Thika branches directly.
+                        </p>
+                    </div>
+
+                    <div class="row g-4 align-items-start">
+                        <!-- Appointment Form -->
+                        <div class="col-lg-7">
+                            <div class="booking-card">
+                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                                    <h4 class="fw-bold mb-0">Book An Appointment</h4>
+                                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2">
+                                        <i class="bi bi-whatsapp"></i> Direct Reception Request
+                                    </span>
+                                </div>
+                                <p class="text-muted small mb-4">
+                                    Note: Submitting this form prepares your appointment request via WhatsApp or Email. Our reception team will respond to confirm your appointment slot.
+                                </p>
+
+                                <form id="vimakAppointmentForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="appFullName" class="form-label fw-semibold small">Full Name *</label>
+                                            <input type="text" id="appFullName" class="form-control form-field"
+                                                placeholder="Enter your full name" required>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appPhone" class="form-label fw-semibold small">Phone Number *</label>
+                                            <input type="tel" id="appPhone" class="form-control form-field"
+                                                placeholder="e.g. 0720 285 819" required>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appEmail" class="form-label fw-semibold small">Email</label>
+                                            <input type="email" id="appEmail" class="form-control form-field"
+                                                placeholder="yourname@example.com">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appLocation" class="form-label fw-semibold small">Preferred Location *</label>
+                                            <select id="appLocation" class="form-select form-field" required>
+                                                <option value="Nairobi Clinic — ICEA Building (JKUAT Towers), 2nd Floor">Nairobi — ICEA Building (JKUAT Towers), 2nd Floor</option>
+                                                <option value="Thika Clinic — Maisha Heights Building, Ground Floor">Thika — Maisha Heights Building, Ground Floor</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appDate" class="form-label fw-semibold small">Preferred Date *</label>
+                                            <input type="date" id="appDate" class="form-control form-field" required>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appTime" class="form-label fw-semibold small">Preferred Time *</label>
+                                            <select id="appTime" class="form-select form-field" required>
+                                                <option value="Morning (8:00 AM - 12:00 PM)">Morning (8:00 AM – 12:00 PM)</option>
+                                                <option value="Afternoon (12:00 PM - 4:00 PM)">Afternoon (12:00 PM – 4:00 PM)</option>
+                                                <option value="Evening (4:00 PM - 8:00 PM, Mon-Sat)">Evening (4:00 PM – 8:00 PM, Mon–Sat)</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="appService" class="form-label fw-semibold small">Service / Reason for Visit *</label>
+                                            <select id="appService" class="form-select form-field" required>
+                                                <option value="General Dental Checkup & Consultation">General Dental Checkup &amp; Consultation</option>
+                                                <option value="Root Canal Treatment">Root Canal Treatment</option>
+                                                <option value="Oral Hygiene (Scaling & Polishing)">Oral Hygiene (Scaling &amp; Polishing)</option>
+                                                <option value="Crowns, Bridges & Dentures">Crowns, Bridges &amp; Prosthetics</option>
+                                                <option value="Dental Implants Consultation">Dental Implants Consultation</option>
+                                                <option value="Children's Dentistry">Children's Dentistry</option>
+                                                <option value="Orthodontics (Braces)">Orthodontics (Braces)</option>
+                                                <option value="Toothache / Urgent Dental Assessment">Toothache / Urgent Dental Assessment</option>
+                                                <option value="Treatment Pricing Inquiry">Treatment Pricing Inquiry</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="appMessage" class="form-label fw-semibold small">Additional Message</label>
+                                            <textarea id="appMessage" rows="3" class="form-control form-field"
+                                                placeholder="Tell us about any dental symptoms, questions, or preferred times..."></textarea>
+                                        </div>
+
+                                        <div class="col-12 d-flex flex-wrap gap-2 pt-2">
+                                            <button type="submit" class="btn btn-vimak-red px-4 py-2 flex-grow-1">
+                                                <i class="bi bi-whatsapp"></i> REQUEST APPOINTMENT
+                                            </button>
+                                            <button type="button" id="sendAppointmentEmailBtn" class="btn btn-vimak-outline-dark px-4 py-2">
+                                                <i class="bi bi-envelope"></i> SEND VIA EMAIL
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <div id="appointmentFormFeedback" class="d-none"></div>
+                            </div>
+                        </div>
+
+                        <!-- Clinic Locations & Contact Info -->
+                        <div class="col-lg-5" id="contact">
+                            <div class="d-flex flex-column gap-4">
+
+                                <!-- Nairobi Clinic -->
+                                <div class="location-card">
+                                    <span class="location-badge"><i class="bi bi-geo-alt-fill"></i> NAIROBI CLINIC</span>
+                                    <h5 class="fw-bold mb-1">ICEA Building (JKUAT Towers), 2nd Floor</h5>
+                                    <p class="text-muted small mb-3">Kenyatta Avenue, Nairobi</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="tel:+2542022289000" class="btn btn-sm btn-primary">
+                                            <i class="bi bi-telephone-fill"></i> CALL NOW
+                                        </a>
+                                        <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%20(Nairobi%20Branch)%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp">
+                                            <i class="bi bi-whatsapp"></i> WHATSAPP
+                                        </a>
+                                        <a href="https://www.google.com/maps/search/?api=1&query=ICEA+Building+JKUAT+Towers+Kenyatta+Avenue+Nairobi"
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-vimak-outline-dark">
+                                            <i class="bi bi-geo-alt"></i> GET DIRECTIONS
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Thika Clinic -->
+                                <div class="location-card">
+                                    <span class="location-badge" style="background: var(--blueMid);"><i class="bi bi-geo-alt-fill"></i> THIKA CLINIC</span>
+                                    <h5 class="fw-bold mb-1">Maisha Heights Building, Ground Floor</h5>
+                                    <p class="text-muted small mb-3">Kenyatta Avenue, Thika</p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="tel:+254720285819" class="btn btn-sm btn-primary">
+                                            <i class="bi bi-telephone-fill"></i> CALL NOW
+                                        </a>
+                                        <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%20(Thika%20Branch)%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp">
+                                            <i class="bi bi-whatsapp"></i> WHATSAPP
+                                        </a>
+                                        <a href="https://www.google.com/maps/search/?api=1&query=Maisha+Heights+Building+Kenyatta+Avenue+Thika"
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-vimak-outline-dark">
+                                            <i class="bi bi-geo-alt"></i> GET DIRECTIONS
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Phone, Email & Opening Hours -->
+                                <div class="location-card">
+                                    <h5 class="fw-bold mb-3">Contact Details &amp; Opening Hours</h5>
+                                    <ul class="list-unstyled small mb-0">
+                                        <li class="mb-2">
+                                            <i class="bi bi-telephone-fill text-primary me-2"></i>
+                                            <strong>Phone:</strong>
+                                            <a href="tel:+2542022289000" class="text-decoration-none text-dark">020 222 89000</a> |
+                                            <a href="tel:+254720285819" class="text-decoration-none text-dark">0720 285 819</a> |
+                                            <a href="tel:+254714481158" class="text-decoration-none text-dark">0714 481 158</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-envelope-fill text-primary me-2"></i>
+                                            <strong>Email:</strong>
+                                            <a href="mailto:info@vimakdentalcentre.co.ke" class="text-decoration-none text-primary">info@vimakdentalcentre.co.ke</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-clock-fill text-primary me-2"></i>
+                                            <strong>Monday–Saturday:</strong> 8:00 AM – 8:00 PM
+                                        </li>
+                                        <li class="mb-0">
+                                            <i class="bi bi-clock-fill text-primary me-2"></i>
+                                            <strong>Sunday:</strong> 8:00 AM – 5:00 PM
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom Banner Section (Preserved from Template) -->
+            <section class="container my-5">
+                <div class="row align-items-stretch g-0 no-gap shadow-sm rounded-4 overflow-hidden">
+
+                    <!-- Text Column -->
+                    <div class="col-md-7">
+                        <div class="appointment-box p-5">
+                            <h3 class="fw-bold text-white mb-2">
+                                Have Questions About Your Dental Visit?
+                            </h3>
+                            <p class="mb-4" style="color: rgba(255,255,255,0.88);">
+                                Call or message our reception team and we will gladly guide you on appointments, clinic directions, and consultation details.
+                            </p>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="tel:+254720285819" class="btn btn-vimak-red px-4 fw-semibold">
+                                    <i class="bi bi-telephone-fill"></i> Call 0720 285 819
+                                </a>
+                                <a href="https://wa.me/254720285819" target="_blank" rel="noopener noreferrer" class="btn btn-vimak-outline px-4 fw-semibold">
+                                    <i class="bi bi-whatsapp"></i> WhatsApp Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Column -->
+                    <div class="col-md-5 position-relative">
+                        <img src="img/picing.jpg"
+                            alt="Dentist reviewing dental X-ray"
+                            class="equal-img">
+                        <div class="placeholder-badge">
+                            <i class="bi bi-camera"></i> Template Image &mdash; [CLIENT TO CONFIRM / REPLACE]
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer-section py-5 mt-5">
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-lg-4">
+                        <div class="footer-logo-wrap">
+                            <img src="img/vimak-logo.svg" alt="Vimak Dental Centre Logo" class="brand-logo-img">
+                        </div>
+                        <p class="small mb-3" style="color: rgba(255,255,255,0.82);">
+                            <strong>Vimak Dental Centre</strong> &mdash; <em>"Giving you something to smile about."</em> Providing professional, patient-centered dental care and oral health education at our Nairobi and Thika clinics.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="#book-appointment" class="btn btn-sm btn-vimak-red">
+                                Book Appointment
+                            </a>
+                            <a href="https://www.tiktok.com/@_vimak_dental_centre" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-vimak-outline">
+                                <i class="bi bi-tiktok"></i> @_vimak_dental_centre
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4">
+                        <h6 class="fw-bold mb-3">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Whyus.html">About / Why Choose Us</a></li>
+                            <li><a href="service.html">Our Services</a></li>
+                            <li><a href="team.html">Our Team</a></li>
+                            <li><a href="DentalSolutions.html">Dental Solutions</a></li>
+                            <li><a href="Pricing.html">Appointments &amp; Care</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <h6 class="fw-bold mb-3">Dental Services</h6>
+                        <ul class="footer-links">
+                            <li><a href="service.html#general-dentistry">General Dental Checkups</a></li>
+                            <li><a href="service.html#root-canal">Root Canal Treatment</a></li>
+                            <li><a href="service.html#crowns-bridges">Crowns &amp; Bridges</a></li>
+                            <li><a href="service.html#dental-implants">Dental Implants</a></li>
+                            <li><a href="service.html#childrens-dentistry">Children's Dentistry</a></li>
+                            <li><a href="service.html#oral-hygiene">Oral Hygiene &amp; Scaling</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <h6 class="fw-bold mb-3">Clinics &amp; Contact</h6>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span><strong>Nairobi:</strong> ICEA Building (JKUAT Towers), 2nd Floor</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span><strong>Thika:</strong> Maisha Heights Building, Ground Floor, Kenyatta Avenue</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>
+                                    <a href="tel:+2542022289000">020 222 89000</a> /
+                                    <a href="tel:+254720285819">0720 285 819</a> /
+                                    <a href="tel:+254714481158">0714 481 158</a>
+                                </span>
+                            </li>
+                            <li>
+                                <i class="bi bi-envelope-fill"></i>
+                                <a href="mailto:info@vimakdentalcentre.co.ke">info@vimakdentalcentre.co.ke</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-clock-fill"></i>
+                                <span>
+                                    Mon–Sat: 8:00 AM – 8:00 PM<br>
+                                    Sunday: 8:00 AM – 5:00 PM
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <hr class="my-4 border-light border-opacity-25">
+
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                    <small style="color: rgba(255,255,255,0.75);">
+                        &copy; 2026 <strong>Vimak Dental Centre</strong>. All Rights Reserved. | Social: <strong>@VimakDentalCentre</strong>
+                    </small>
+
+                    <div class="social-icons d-flex gap-2">
+                        <a href="https://www.tiktok.com/@_vimak_dental_centre" target="_blank" rel="noopener noreferrer" aria-label="Vimak Dental Centre on TikTok">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/254720285819" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Vimak Dental Centre">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="tel:+254720285819" aria-label="Call Vimak Dental Centre">
+                            <i class="bi bi-telephone-fill"></i>
+                        </a>
+                        <a href="mailto:info@vimakdentalcentre.co.ke" aria-label="Email Vimak Dental Centre">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mobile Quick-Action Bar -->
+        <div class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+            <a href="tel:+254720285819" class="btn btn-sm btn-primary flex-fill py-2">
+                <i class="bi bi-telephone-fill"></i> Call
+            </a>
+            <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp flex-fill py-2">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+            <a href="#book-appointment" class="btn btn-sm btn-vimak-red flex-fill py-2">
+                <i class="bi bi-calendar2-check"></i> Book
+            </a>
+        </div>
+
+        <!-- Bootstrap JS && custom js-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

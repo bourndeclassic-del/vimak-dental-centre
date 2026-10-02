@@ -1,0 +1,74 @@
+/* ==========================================================================
+   VIMAK DENTAL CENTRE — SERVICES PAGE STYLES (services.css)
+   ========================================================================== */
+@import url("style.css");
+
+.service-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 30px 26px;
+  text-align: left;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--blueMid);
+}
+
+.service-card i.service-main-icon {
+  font-size: 32px;
+  color: var(--primary);
+  background: var(--light-blue);
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: 0.25s ease;
+}
+
+.service-card:hover i.service-main-icon {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.service-card h5 {
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: var(--text-body);
+  font-size: 0.94rem;
+  flex-grow: 1;
+}
+
+.service-meta-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.service-meta-list li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-meta-list li i {
+  color: var(--blueMid);
+  font-size: 0.95rem;
+}

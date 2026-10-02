@@ -1,0 +1,64 @@
+/* ==========================================================================
+   VIMAK DENTAL CENTRE — DENTAL SOLUTIONS & TREATMENT CARE (Dentalsolutions.css)
+   ========================================================================== */
+@import url("style.css");
+
+.solution-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  transition: 0.25s ease;
+  border: 1px solid var(--border-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.solution-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--blueMid);
+}
+
+.solution-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--primary), var(--blueMid));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.solution-card h5 {
+  color: var(--text-dark);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.solution-card p {
+  color: var(--text-body);
+  font-size: 0.94rem;
+  margin: 6px 0 14px;
+  flex-grow: 1;
+}
+
+.solution-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.92rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.2s;
+}
+
+.solution-link:hover {
+  color: var(--accent-red);
+  gap: 10px;
+}

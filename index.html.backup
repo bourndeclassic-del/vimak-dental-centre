@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vimak Dental Centre | Professional Dental Care</title>
+        <meta name="description"
+            content="Vimak Dental Centre provides professional dental care and treatment services in Nairobi and Thika. Book an appointment and take care of your smile.">
+        <meta name="keywords"
+            content="Vimak Dental Centre, dentist Nairobi, dentist Thika, ICEA Building dental clinic, Maisha Heights dental clinic, root canal, dental checkup, children dentistry Kenya">
+
+        <!-- Open Graph Metadata -->
+        <meta property="og:title" content="Vimak Dental Centre | Professional Dental Care">
+        <meta property="og:description"
+            content="Vimak Dental Centre provides professional dental care and treatment services in Nairobi and Thika. Giving you something to smile about.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="img/vimak-logo-hd.png">
+
+        <!-- Bootstrap 5 CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+        <!-- AOS Animation Library -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/download (35).png" type="image/png">
+    </head>
+    <body>
+        <!-- Header & Navigation -->
+        <header>
+            <nav class="navbar main-nav fixed-top navbar-expand-lg" aria-label="Main Navigation">
+                <div class="container d-flex justify-content-between align-items-center">
+
+                    <!-- Official Vimak Dental Centre Logo -->
+                    <a href="index.html" class="brand-logo" aria-label="Vimak Dental Centre Home">
+                        <img src="img/vimak-logo.svg" alt="Vimak Dental Centre - Something to smile about" class="brand-logo-img">
+                    </a>
+
+                    <!-- Desktop Menu -->
+                    <ul class="nav d-none d-lg-flex align-items-center gap-1">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Whyus.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="DentalSolutions.html">Dental Solutions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Pricing.html#contact">Contact</a></li>
+                    </ul>
+
+                    <!-- Desktop Primary CTA -->
+                    <div class="d-none d-lg-flex align-items-center gap-2">
+                        <a href="tel:+254720285819" class="btn btn-vimak-outline-dark btn-sm px-3" title="Call Vimak Dental Centre">
+                            <i class="bi bi-telephone-fill"></i> 0720 285 819
+                        </a>
+                        <a href="#book-appointment" class="btn btn-vimak-red px-4">
+                            BOOK APPOINTMENT
+                        </a>
+                    </div>
+
+                    <!-- Mobile Offcanvas Toggler -->
+                    <button class="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu"
+                        aria-controls="mobileMenu"
+                        aria-label="Toggle navigation menu">
+                        <i class="bi bi-list fs-1"></i>
+                    </button>
+
+                </div>
+            </nav>
+
+            <!-- Offcanvas Mobile Menu -->
+            <div class="offcanvas offcanvas-end vimak-offcanvas" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+                <div class="offcanvas-header">
+                    <a href="index.html" class="brand-logo" id="mobileMenuLabel">
+                        <img src="img/vimak-logo.svg" alt="Vimak Dental Centre Logo" class="brand-logo-img">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close menu"></button>
+                </div>
+
+                <div class="offcanvas-body d-flex flex-column justify-content-between">
+                    <div>
+                        <ul class="navbar-nav gap-1">
+                            <li><a class="nav-link active" href="index.html">Home</a></li>
+                            <li><a class="nav-link" href="Whyus.html">About</a></li>
+                            <li><a class="nav-link" href="service.html">Services</a></li>
+                            <li><a class="nav-link" href="team.html">Our Team</a></li>
+                            <li><a class="nav-link" href="DentalSolutions.html">Dental Solutions</a></li>
+                            <li><a class="nav-link" href="Pricing.html#contact">Contact</a></li>
+                        </ul>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <a href="#book-appointment" class="btn btn-vimak-red w-100">
+                                <i class="bi bi-calendar2-check"></i> BOOK APPOINTMENT
+                            </a>
+                            <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20would%20like%20to%20inquire%20about%20a%20dental%20appointment."
+                                target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp w-100">
+                                <i class="bi bi-whatsapp"></i> WHATSAPP US
+                            </a>
+                            <a href="tel:+254720285819" class="btn btn-vimak-cyan w-100">
+                                <i class="bi bi-telephone-fill"></i> CALL 0720 285 819
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="border-top pt-3 mt-4 small text-muted">
+                        <p class="mb-1 fw-bold text-dark"><i class="bi bi-geo-alt-fill text-primary"></i> Nairobi &amp; Thika Clinics</p>
+                        <p class="mb-1">Mon–Sat: 8:00 AM – 8:00 PM</p>
+                        <p class="mb-0">Sunday: 8:00 AM – 5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- 1. HERO SECTION -->
+            <section class="hero-modern">
+                <div class="container">
+                    <div class="row align-items-center g-4">
+
+                        <!-- Left Content -->
+                        <div class="col-lg-6">
+                            <div class="hero-badge">
+                                <span class="badge-dot"></span>
+                                <span>Vimak Dental Centre &bull; Nairobi &amp; Thika</span>
+                            </div>
+
+                            <h1 class="hero-title">
+                                Giving You Something To Smile About
+                            </h1>
+
+                            <p class="hero-desc">
+                                Professional dental care for healthier smiles and confident patients. Our clinical team focuses on comfortable care, clear dental education, and personalized treatment guidance for individuals and families.
+                            </p>
+
+                            <div class="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-lg-start">
+                                <a href="#book-appointment" class="btn hero-btn px-4">
+                                    <i class="bi bi-calendar2-check"></i> BOOK AN APPOINTMENT
+                                </a>
+                                <a href="service.html" class="btn btn-vimak-outline px-4">
+                                    EXPLORE OUR SERVICES
+                                </a>
+                            </div>
+
+                            <div class="d-flex flex-wrap gap-2 mt-3 justify-content-center justify-content-lg-start">
+                                <a href="tel:+254720285819" class="btn btn-sm btn-vimak-cyan px-3">
+                                    <i class="bi bi-telephone-fill"></i> CALL US
+                                </a>
+                                <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                                    target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp px-3">
+                                    <i class="bi bi-whatsapp"></i> WHATSAPP US
+                                </a>
+                                <a href="#contact" class="btn btn-sm btn-vimak-outline px-3">
+                                    <i class="bi bi-geo-alt-fill"></i> FIND OUR CLINIC
+                                </a>
+                            </div>
+
+                            <!-- Verified Clinic Facts Strip -->
+                            <div class="hero-trust-strip mt-4">
+                                <div class="hero-trust-item">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    <span>Nairobi (ICEA Bldg) &amp; Thika (Maisha Heights)</span>
+                                </div>
+                                <div class="hero-trust-item">
+                                    <i class="bi bi-clock-fill"></i>
+                                    <span>Open Mon–Sat (8AM–8PM) &amp; Sun (8AM–5PM)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Hero Image -->
+                        <div class="col-lg-6">
+                            <div class="hero-image-wrapper">
+                                <div class="placeholder-img-wrap d-inline-block">
+                                    <img src="img/heroimg.png"
+                                        alt="Patient smiling during a comfortable dental examination"
+                                        class="hero-img" />
+                                    <div class="placeholder-badge">
+                                        <i class="bi bi-camera-fill"></i>
+                                        <span>Template Image &mdash; [CLIENT TO CONFIRM / REPLACE WITH VIMAK HERO PHOTO]</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Appointment Bar Section (Preserved from Template) -->
+            <section class="container appointment-bar" aria-label="Quick Appointment Request Bar">
+                <form id="quickAppointmentBarForm">
+                    <div class="row g-3 align-items-end">
+
+                        <div class="col-md-3 col-sm-6">
+                            <label for="quickName" class="form-label fw-semibold small mb-1">Full Name</label>
+                            <input type="text" id="quickName" class="form-control form-field"
+                                placeholder="Your Full Name" required>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <label for="quickPhone" class="form-label fw-semibold small mb-1">Phone Number</label>
+                            <input type="tel" id="quickPhone" class="form-control form-field"
+                                placeholder="e.g. 0720 285 819" required>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6">
+                            <label for="quickLocation" class="form-label fw-semibold small mb-1">Clinic Branch</label>
+                            <select id="quickLocation" class="form-select form-field">
+                                <option value="Nairobi Clinic (ICEA Building)">Nairobi (ICEA Bldg)</option>
+                                <option value="Thika Clinic (Maisha Heights)">Thika (Maisha Heights)</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <label for="quickService" class="form-label fw-semibold small mb-1">Dental Service</label>
+                            <select id="quickService" class="form-select form-field">
+                                <option value="General Dental Checkup">General Dental Checkup</option>
+                                <option value="Root Canal Treatment">Root Canal Treatment</option>
+                                <option value="Oral Hygiene / Cleaning">Oral Hygiene &amp; Cleaning</option>
+                                <option value="Children's Dentistry">Children's Dentistry</option>
+                                <option value="Crowns, Bridges & Restorations">Crowns &amp; Bridges</option>
+                                <option value="Orthodontics / Braces">Orthodontics (Braces)</option>
+                                <option value="Dental Implants Consultation">Dental Implants</option>
+                                <option value="Toothache / Dental Consultation">Toothache / Consultation</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-2 d-flex align-items-end">
+                            <button type="submit" class="btn make-btn w-100">
+                                Book Visit
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+            </section>
+
+            <!-- 2. QUICK TRUST / INTRODUCTION SECTION -->
+            <section class="container py-5 mt-3" data-aos="fade-up">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="placeholder-img-wrap shadow-sm">
+                            <img src="img/vimak-clinic-reception.jpg"
+                                alt="Vimak Dental Centre clinic reception and patient waiting area"
+                                class="w-100 rounded-4" style="max-height: 390px; object-fit: cover;">
+                            <div class="verified-clinic-badge">
+                                <i class="bi bi-check-circle-fill text-info"></i>
+                                <span>Vimak Dental Centre &mdash; Reception &amp; Waiting Area</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <span class="section-tag">Welcome to Vimak Dental Centre</span>
+                        <h2 class="fw-bold mb-3">Your Smile. Our Care.</h2>
+                        <p class="lead fw-medium text-dark mb-3">
+                            Professional dental care that makes you feel comfortable, informed and confident about your smile.
+                        </p>
+                        <p class="text-muted mb-3">
+                            Vimak Dental Centre provides professional dental care with a focus on patient comfort, oral health and informed treatment decisions. Whether you are visiting us for a routine dental check-up, root canal treatment, children's dental care, or restorative dentistry, our team takes time to explain your options clearly before any procedure begins.
+                        </p>
+                        <div class="row g-3 mt-2 mb-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-start gap-2">
+                                    <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">Patient-First Approach</h6>
+                                        <p class="small text-muted mb-0">Clear explanations and tailored dental treatment plans.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-start gap-2">
+                                    <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">Two Accessible Branches</h6>
+                                        <p class="small text-muted mb-0">Convenient locations in Nairobi CBD and Thika Town.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="Whyus.html" class="btn btn-vimak-outline-dark">
+                                Learn More About Us
+                            </a>
+                            <a href="#book-appointment" class="btn btn-vimak-red">
+                                Book an Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. SERVICES PREVIEW SECTION -->
+            <section class="container py-5" data-aos="fade-up">
+                <div class="text-center mb-5">
+                    <span class="section-tag">Clinical Care &amp; Treatments</span>
+                    <h2 class="fw-bold">Our Dental Services</h2>
+                    <p class="section-subtitle">
+                        Comprehensive preventive, restorative, and family dental services tailored to your individual oral health needs.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Service 1: General Dentistry -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-card">
+                            <div class="service-icon-wrap">
+                                <i class="fa-solid fa-tooth"></i>
+                            </div>
+                            <h5>General Dentistry</h5>
+                            <p>
+                                Comprehensive dental examinations, consultations, tooth fillings, and routine assessments to maintain healthy teeth and gums.
+                            </p>
+                            <a href="service.html#general-dentistry" class="card-link-btn">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Root Canal Treatment -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="service-card">
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-shield-plus"></i>
+                            </div>
+                            <h5>Root Canal Treatment</h5>
+                            <p>
+                                Endodontic treatment to care for deeply decayed or infected teeth, helping relieve toothache and preserve your natural tooth structure.
+                            </p>
+                            <a href="service.html#root-canal" class="card-link-btn">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Crowns & Bridges -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-card">
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <h5>Crowns &amp; Bridges</h5>
+                            <p>
+                                Custom-fitted prosthetic crowns, bridges, and dentures designed to restore damaged or missing teeth and support natural bite function.
+                            </p>
+                            <a href="service.html#crowns-bridges" class="card-link-btn">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Dental Implants -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                        <div class="service-card">
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-Explicit"></i>
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+                            <h5>Dental Implants</h5>
+                            <p>
+                                Long-term tooth replacement options for missing teeth, recommended following a thorough clinical and radiographic evaluation.
+                            </p>
+                            <a href="service.html#dental-implants" class="card-link-btn">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Children's Dentistry -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-card">
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-emoji-smile"></i>
+                            </div>
+                            <h5>Children's Dentistry</h5>
+                            <p>
+                                Gentle, family-friendly paediatric dental check-ups, protective fissure sealants, fluoride care, and early oral hygiene guidance for kids.
+                            </p>
+                            <a href="service.html#childrens-dentistry" class="card-link-btn">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: Oral Hygiene / Preventive Care -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+                        <div class="service-card">
+                            <div class="service-icon-wrap">
+                                <i class="bi bi-stars"></i>
+                            </div>
+                            <h5>Oral Hygiene &amp; Preventive Care</h5>
+                            <p>
+                                Full-mouth scaling, polishing, fluoride application, and practical daily oral care education to protect gum health and prevent cavities.
+                            </p>
+                            <a href="service.html#oral-hygiene" class="card-link-btn">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Service 7: Cosmetic Dentistry & Orthodontics -->
+                    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-card flex-md-row align-items-md-center justify-content-between gap-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="service-icon-wrap flex-shrink-0 mb-0">
+                                    <i class="bi bi-brightness-high"></i>
+                                </div>
+                                <div>
+                                    <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                        <h5 class="mb-0">Cosmetic Dentistry &amp; Orthodontics (Braces)</h5>
+                                        <span class="client-confirm-tag"><i class="bi bi-info-circle"></i> [CLIENT TO CONFIRM specific cosmetic packages]</span>
+                                    </div>
+                                    <p class="mb-0">
+                                        Orthodontic braces for teeth alignment as well as aesthetic dental procedures to improve smile appearance. A clinical consultation is required to determine suitable options for your teeth.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <a href="service.html#cosmetic-orthodontics" class="btn btn-vimak-outline-dark">
+                                    View All Services <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. WHY CHOOSE VIMAK SECTION (Replaces Fictional Stats Counter) -->
+            <section class="py-5" style="background: #EAF3FA;" data-aos="fade-up">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <span class="section-tag">Why Choose Vimak</span>
+                        <h2 class="fw-bold">Why Patients Trust Vimak Dental Centre</h2>
+                        <p class="section-subtitle">
+                            We combine clinical professionalism with patient education and a welcoming environment across our Nairobi and Thika branches.
+                        </p>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="service-icon-wrap">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <h5>Professional Dental Care</h5>
+                                <p class="mb-0">
+                                    Every treatment begins with a careful dental examination and diagnosis so you receive care appropriate for your specific oral health condition.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="service-icon-wrap">
+                                    <i class="bi bi-book-half"></i>
+                                </div>
+                                <h5>Patient Education &amp; Transparency</h5>
+                                <p class="mb-0">
+                                    Through in-clinic consultations and our educational dental content, we empower patients to understand their treatment options and daily oral care.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="service-icon-wrap">
+                                    <i class="bi bi-hospital"></i>
+                                </div>
+                                <h5>Modern Clinical Environment</h5>
+                                <p class="mb-0">
+                                    Clean, well-maintained dental treatment rooms and diagnostic equipment adhering to strict clinical hygiene and sterilization protocols.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="service-icon-wrap">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <h5>Family-Friendly Care</h5>
+                                <p class="mb-0">
+                                    A calm, supportive atmosphere for children, teenagers, adults, and seniors—helping every family member feel comfortable in the dental chair.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="service-icon-wrap">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <h5>Accessible Nairobi &amp; Thika Clinics</h5>
+                                <p class="mb-0">
+                                    Conveniently situated at ICEA Building (JKUAT Towers), 2nd Floor in Nairobi CBD and Maisha Heights Building, Ground Floor in Thika.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="why-card">
+                                <div class="service-icon-wrap">
+                                    <i class="bi bi-calendar2-week"></i>
+                                </div>
+                                <h5>Open 7 Days &amp; Easy Contact</h5>
+                                <p class="mb-0">
+                                    Extended opening hours Monday to Saturday (8:00 AM – 8:00 PM) and Sunday (8:00 AM – 5:00 PM), with direct phone and WhatsApp assistance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. DENTAL EDUCATION SECTION ("Learn More About Your Smile") -->
+            <section class="container my-5 py-3" id="dental-education" data-aos="fade-up">
+                <div class="text-center mb-5">
+                    <span class="blog-tag">Dental Education &amp; Oral Health Tips</span>
+                    <h2 class="fw-bold">Learn More About Your Smile</h2>
+                    <p class="section-subtitle">
+                        Helpful educational summaries from Vimak Dental Centre to help you and your family care for your teeth and gums.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Education Item 1 -->
+                    <div class="col-lg-6">
+                        <div class="blog-card d-flex">
+                            <div class="blog-img-wrap">
+                                <img src="img/blog3.jpg" alt="Dentist reviewing dental checkup findings with a patient" class="blog-img">
+                            </div>
+                            <div class="blog-content">
+                                <span class="badge bg-light text-primary border mb-1">Preventive Care</span>
+                                <h5 class="fw-bold">How Often Should You Visit the Dentist?</h5>
+                                <p>
+                                    For most children and adults, a routine dental check-up every 6 months helps detect early signs of decay or gum inflammation before discomfort develops.
+                                </p>
+                                <button type="button" class="read-link" data-bs-toggle="modal" data-bs-target="#eduModal1">
+                                    Read Educational Guide &rarr;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Item 2 -->
+                    <div class="col-lg-6">
+                        <div class="blog-card d-flex">
+                            <div class="blog-img-wrap">
+                                <img src="img/blog2.jpg" alt="Dental professional performing a careful clinical examination" class="blog-img">
+                            </div>
+                            <div class="blog-content">
+                                <span class="badge bg-light text-primary border mb-1">Restorative Care</span>
+                                <h5 class="fw-bold">What Is a Root Canal Treatment?</h5>
+                                <p>
+                                    Learn how root canal treatment cleans and seals an infected tooth interior so you can relieve deep tooth pain and save your natural tooth.
+                                </p>
+                                <button type="button" class="read-link" data-bs-toggle="modal" data-bs-target="#eduModal2">
+                                    Read Educational Guide &rarr;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Item 3 -->
+                    <div class="col-lg-6">
+                        <div class="blog-card d-flex">
+                            <div class="blog-img-wrap">
+                                <img src="img/blog1.jpg" alt="Child smiling in a dental chair with parent nearby" class="blog-img">
+                            </div>
+                            <div class="blog-content">
+                                <span class="badge bg-light text-primary border mb-1">Children's Dentistry</span>
+                                <h5 class="fw-bold">How Can You Protect Your Child's Teeth?</h5>
+                                <p>
+                                    Supervised twice-daily brushing with fluoride toothpaste, balanced nutrition, and early dental visits help keep primary and permanent teeth healthy.
+                                </p>
+                                <button type="button" class="read-link" data-bs-toggle="modal" data-bs-target="#eduModal3">
+                                    Read Educational Guide &rarr;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Item 4 -->
+                    <div class="col-lg-6">
+                        <div class="blog-card d-flex">
+                            <div class="blog-img-wrap">
+                                <img src="img/blog4.jpg" alt="Patient smiling in a mirror after a dental checkup" class="blog-img">
+                            </div>
+                            <div class="blog-content">
+                                <span class="badge bg-light text-primary border mb-1">Oral Hygiene</span>
+                                <h5 class="fw-bold">Why Regular Dental Checkups Matter</h5>
+                                <p>
+                                    Professional scaling removes hardened tartar that regular brushing cannot reach, supporting healthier gums, fresher breath, and long-term oral wellness.
+                                </p>
+                                <button type="button" class="read-link" data-bs-toggle="modal" data-bs-target="#eduModal4">
+                                    Read Educational Guide &rarr;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. PATIENT / SOCIAL PROOF & TIKTOK INTEGRATION SECTION -->
+            <section class="container my-5" data-aos="fade-up">
+                <div class="tiktok-follow-box">
+                    <div class="row align-items-center g-4">
+                        <div class="col-lg-7">
+                            <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
+                                <span class="tiktok-handle-pill">
+                                    <i class="bi bi-tiktok"></i> @_vimak_dental_centre
+                                </span>
+                                <span class="tiktok-handle-pill">
+                                    <i class="bi bi-patch-check-fill text-info"></i> @VimakDentalCentre
+                                </span>
+                            </div>
+
+                            <h3 class="fw-bold mb-3">Follow Vimak Dental Centre</h3>
+                            <p class="mb-4 text-white-50 fs-5" style="color: rgba(255,255,255,0.9) !important;">
+                                Stay informed with dental tips, treatment information and updates from Vimak Dental Centre. Watch our educational dental posts, oral hygiene tips, and clinic insights on TikTok.
+                            </p>
+
+                            <div class="d-flex flex-wrap gap-3 align-items-center">
+                                <a href="https://www.tiktok.com/@_vimak_dental_centre"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-vimak-red px-4 py-2">
+                                    <i class="bi bi-tiktok"></i> FOLLOW US ON TIKTOK
+                                </a>
+                                <a href="#book-appointment" class="btn btn-vimak-outline px-4 py-2">
+                                    Book a Clinic Visit
+                                </a>
+                            </div>
+
+                            <div class="mt-4 pt-3 border-top border-light border-opacity-25 small text-white-50">
+                                <i class="bi bi-info-circle me-1"></i>
+                                <strong>Patient Reviews Notice:</strong> [CLIENT TO CONFIRM &mdash; Verified patient testimonials can be added here once provided and approved by Vimak Dental Centre.]
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="tiktok-topic-card">
+                                        <i class="bi bi-lightbulb-fill"></i>
+                                        <h6 class="fw-bold text-white mb-1">Oral Hygiene Tips</h6>
+                                        <p class="small mb-0 text-white-50">Practical daily brushing, flossing, and gum care advice.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="tiktok-topic-card">
+                                        <i class="bi bi-shield-plus"></i>
+                                        <h6 class="fw-bold text-white mb-1">Treatment Explainers</h6>
+                                        <p class="small mb-0 text-white-50">Learn what happens during root canals, checkups &amp; cleanings.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="tiktok-topic-card">
+                                        <i class="bi bi-emoji-smile-fill"></i>
+                                        <h6 class="fw-bold text-white mb-1">Kids' Dental Care</h6>
+                                        <p class="small mb-0 text-white-50">Guidance for parents on caring for children's teeth.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="tiktok-topic-card">
+                                        <i class="bi bi-question-circle-fill"></i>
+                                        <h6 class="fw-bold text-white mb-1">Dental Q&amp;A &amp; Quizzes</h6>
+                                        <p class="small mb-0 text-white-50">Interactive dental health quizzes and myth-busting posts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7. CLINIC GALLERY SECTION -->
+            <section class="container my-5 py-3" id="clinic-gallery" data-aos="fade-up">
+                <div class="text-center mb-5">
+                    <span class="section-tag">Inside Our Clinics</span>
+                    <h2 class="fw-bold">Clinic Environment &amp; Care Gallery</h2>
+                    <p class="section-subtitle">
+                        Explore our welcoming clinic environment. Placeholders below indicate where additional client-approved photographs of Nairobi and Thika treatment rooms can be placed.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Gallery Item 1: Real Vimak Reception -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="gallery-card">
+                            <div class="gallery-img-box">
+                                <img src="img/vimak-clinic-reception.jpg"
+                                    alt="Vimak Dental Centre reception desk and waiting area">
+                                <div class="verified-clinic-badge">
+                                    <i class="bi bi-check-circle-fill text-info"></i> Official Clinic Reception
+                                </div>
+                            </div>
+                            <div class="gallery-card-body">
+                                <h6 class="fw-bold mb-1">Clinic Reception &amp; Lounge</h6>
+                                <p class="small text-muted mb-0">Welcoming reception and patient waiting area at Vimak Dental Centre.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2: Treatment Room Placeholder -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="gallery-card">
+                            <div class="gallery-img-box">
+                                <img src="img/whyus.jpg"
+                                    alt="Dental treatment room consultation">
+                                <div class="placeholder-badge">
+                                    <i class="bi bi-camera"></i> [CLIENT TO CONFIRM: Treatment Room Photo]
+                                </div>
+                            </div>
+                            <div class="gallery-card-body">
+                                <h6 class="fw-bold mb-1">Dental Treatment Rooms</h6>
+                                <p class="small text-muted mb-0">Comfortable clinical environment for examinations and procedures.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3: Dental Equipment Placeholder -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="gallery-card">
+                            <div class="gallery-img-box">
+                                <img src="img/picing.jpg"
+                                    alt="Dental diagnostic X-ray and clinical instruments">
+                                <div class="placeholder-badge">
+                                    <i class="bi bi-camera"></i> [CLIENT TO CONFIRM: Equipment Photo]
+                                </div>
+                            </div>
+                            <div class="gallery-card-body">
+                                <h6 class="fw-bold mb-1">Diagnostics &amp; Equipment</h6>
+                                <p class="small text-muted mb-0">Modern dental instruments and radiographic assessment tools.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4: Family Care Placeholder -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="gallery-card">
+                            <div class="gallery-img-box">
+                                <img src="img/service.jpeg"
+                                    alt="Preventive dental checkup and oral hygiene care">
+                                <div class="placeholder-badge">
+                                    <i class="bi bi-camera"></i> [CLIENT TO CONFIRM: Clinical Care Photo]
+                                </div>
+                            </div>
+                            <div class="gallery-card-body">
+                                <h6 class="fw-bold mb-1">Preventive &amp; Restorative Care</h6>
+                                <p class="small text-muted mb-0">Focused on hygiene, patient comfort, and clear communication.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8. FAQ SECTION -->
+            <section class="container my-5 py-3" id="faq">
+                <div class="text-center mb-4">
+                    <span class="faq-tag">FAQ</span>
+                    <h2 class="fw-bold">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">
+                        Common questions about dental visits, oral hygiene, and treatment care at Vimak Dental Centre.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="accordion" id="faqAccordion">
+
+                            <!-- Question 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">
+                                        How often should I visit the dentist?
+                                    </button>
+                                </h2>
+                                <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        In general, visiting the dentist every <strong>6 months</strong> for a routine examination and professional cleaning helps maintain healthy teeth and gums. However, the ideal check-up schedule depends on your individual oral health condition—your dentist will recommend a follow-up interval suited to your needs after assessing your teeth and gums.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">
+                                        What should I expect during my dental appointment?
+                                    </button>
+                                </h2>
+                                <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        During your initial visit at Vimak Dental Centre, the dentist will listen to your concerns, review your dental and medical history, and perform a gentle clinical examination of your teeth and gums. Where necessary, diagnostic X-rays may be recommended. Your dentist will then explain their findings clearly and discuss suitable treatment options before any procedure is carried out.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">
+                                        When might a root canal treatment be recommended?
+                                    </button>
+                                </h2>
+                                <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        A root canal treatment may be recommended when the soft inner tissue (pulp) of a tooth becomes inflamed or infected due to deep decay, repeated dental procedures, or a crack/injury to the tooth. Common signs include persistent toothache, prolonged sensitivity to hot or cold, tenderness when chewing, or gum swelling. Because symptoms vary, a dental professional must examine the tooth and take an X-ray to confirm whether root canal therapy is appropriate.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">
+                                        How can I care for my child's teeth?
+                                    </button>
+                                </h2>
+                                <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Start cleaning your child's teeth as soon as the first tooth appears, supervise brushing twice daily with an age-appropriate fluoride toothpaste, and limit sugary snacks and drinks between meals. Regular paediatric dental check-ups allow a dentist to monitor tooth development, apply preventive treatments where helpful, and help your child build positive, stress-free dental habits.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">
+                                        How can I find out the cost of a specific dental treatment?
+                                    </button>
+                                </h2>
+                                <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Because every patient's oral health needs are unique, treatment plans and costs depend on a clinical assessment by a dentist. Please contact our Nairobi or Thika clinic via phone or WhatsApp, or book a consultation so our team can assess your needs and provide transparent pricing information.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BOOK AN APPOINTMENT & CONTACT SECTION -->
+            <section class="py-5" style="background: #EAF3FA;" id="book-appointment">
+                <div class="container">
+                    <div class="text-center mb-5">
+                        <span class="section-tag">Appointments &amp; Clinics</span>
+                        <h2 class="fw-bold">Book an Appointment or Contact Us</h2>
+                        <p class="section-subtitle">
+                            Request an appointment at our Nairobi or Thika branch, or reach out directly by phone or WhatsApp.
+                        </p>
+                    </div>
+
+                    <div class="row g-4 align-items-start">
+                        <!-- Appointment Form Column -->
+                        <div class="col-lg-7">
+                            <div class="booking-card">
+                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+                                    <h4 class="fw-bold mb-0">Request an Appointment</h4>
+                                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2">
+                                        <i class="bi bi-whatsapp"></i> WhatsApp &amp; Email Enabled
+                                    </span>
+                                </div>
+                                <p class="text-muted small mb-4">
+                                    Fill in your details below and click <strong>Request Appointment</strong>. Your request will open in WhatsApp (or your email client) so our reception team can confirm your preferred date and time.
+                                </p>
+
+                                <form id="vimakAppointmentForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="appFullName" class="form-label fw-semibold small">Full Name *</label>
+                                            <input type="text" id="appFullName" class="form-control form-field"
+                                                placeholder="Enter your full name" required>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appPhone" class="form-label fw-semibold small">Phone Number *</label>
+                                            <input type="tel" id="appPhone" class="form-control form-field"
+                                                placeholder="e.g. 0720 285 819" required>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appEmail" class="form-label fw-semibold small">Email Address</label>
+                                            <input type="email" id="appEmail" class="form-control form-field"
+                                                placeholder="yourname@example.com">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appLocation" class="form-label fw-semibold small">Preferred Location *</label>
+                                            <select id="appLocation" class="form-select form-field" required>
+                                                <option value="Nairobi Clinic — ICEA Building (JKUAT Towers), 2nd Floor">Nairobi — ICEA Building (JKUAT Towers), 2nd Floor</option>
+                                                <option value="Thika Clinic — Maisha Heights Building, Ground Floor">Thika — Maisha Heights Building, Ground Floor</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appDate" class="form-label fw-semibold small">Preferred Date *</label>
+                                            <input type="date" id="appDate" class="form-control form-field" required>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="appTime" class="form-label fw-semibold small">Preferred Time *</label>
+                                            <select id="appTime" class="form-select form-field" required>
+                                                <option value="Morning (8:00 AM - 12:00 PM)">Morning (8:00 AM – 12:00 PM)</option>
+                                                <option value="Afternoon (12:00 PM - 4:00 PM)">Afternoon (12:00 PM – 4:00 PM)</option>
+                                                <option value="Evening (4:00 PM - 8:00 PM, Mon-Sat)">Evening (4:00 PM – 8:00 PM, Mon–Sat)</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="appService" class="form-label fw-semibold small">Service / Reason for Visit *</label>
+                                            <select id="appService" class="form-select form-field" required>
+                                                <option value="General Dental Checkup & Consultation">General Dental Checkup &amp; Consultation</option>
+                                                <option value="Root Canal Treatment">Root Canal Treatment</option>
+                                                <option value="Oral Hygiene (Scaling & Polishing)">Oral Hygiene (Scaling &amp; Polishing)</option>
+                                                <option value="Crowns, Bridges & Dentures">Crowns, Bridges &amp; Prosthetics</option>
+                                                <option value="Dental Implants Consultation">Dental Implants Consultation</option>
+                                                <option value="Children's Dentistry">Children's Dentistry</option>
+                                                <option value="Orthodontics (Braces)">Orthodontics (Braces)</option>
+                                                <option value="Toothache / Urgent Dental Assessment">Toothache / Urgent Dental Assessment</option>
+                                                <option value="Cosmetic Dentistry Inquiry">Cosmetic Dentistry Inquiry</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="appMessage" class="form-label fw-semibold small">Additional Message (Optional)</label>
+                                            <textarea id="appMessage" rows="3" class="form-control form-field"
+                                                placeholder="Share any symptoms, questions, or preferred appointment details..."></textarea>
+                                        </div>
+
+                                        <div class="col-12 d-flex flex-wrap gap-2 pt-2">
+                                            <button type="submit" class="btn btn-vimak-red px-4 py-2 flex-grow-1">
+                                                <i class="bi bi-whatsapp"></i> REQUEST APPOINTMENT (WHATSAPP)
+                                            </button>
+                                            <button type="button" id="sendAppointmentEmailBtn" class="btn btn-vimak-outline-dark px-4 py-2">
+                                                <i class="bi bi-envelope"></i> REQUEST VIA EMAIL
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <div id="appointmentFormFeedback" class="d-none"></div>
+                            </div>
+                        </div>
+
+                        <!-- Clinic Locations & Contact Info Column -->
+                        <div class="col-lg-5" id="contact">
+                            <div class="d-flex flex-column gap-4">
+
+                                <!-- Nairobi Branch Card -->
+                                <div class="location-card">
+                                    <span class="location-badge"><i class="bi bi-geo-alt-fill"></i> Nairobi Clinic</span>
+                                    <h5 class="fw-bold mb-2">ICEA Building (JKUAT Towers), 2nd Floor</h5>
+                                    <p class="text-muted small mb-3">
+                                        Kenyatta Avenue, Nairobi CBD, Kenya
+                                    </p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="tel:+2542022289000" class="btn btn-sm btn-vimak-outline-dark">
+                                            <i class="bi bi-telephone"></i> 020 222 89000
+                                        </a>
+                                        <a href="https://www.google.com/maps/search/?api=1&query=ICEA+Building+JKUAT+Towers+Kenyatta+Avenue+Nairobi"
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-vimak-cyan">
+                                            <i class="bi bi-map"></i> Get Directions
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Thika Branch Card -->
+                                <div class="location-card">
+                                    <span class="location-badge" style="background: var(--blueMid);"><i class="bi bi-geo-alt-fill"></i> Thika Clinic</span>
+                                    <h5 class="fw-bold mb-2">Maisha Heights Building, Ground Floor</h5>
+                                    <p class="text-muted small mb-3">
+                                        Kenyatta Avenue, Thika, Kenya
+                                    </p>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="tel:+254720285819" class="btn btn-sm btn-vimak-outline-dark">
+                                            <i class="bi bi-telephone"></i> 0720 285 819
+                                        </a>
+                                        <a href="https://www.google.com/maps/search/?api=1&query=Maisha+Heights+Building+Kenyatta+Avenue+Thika"
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-vimak-cyan">
+                                            <i class="bi bi-map"></i> Get Directions
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Direct Contact & Hours Card -->
+                                <div class="location-card">
+                                    <h5 class="fw-bold mb-3"><i class="bi bi-headset text-primary me-2"></i>Direct Contact &amp; Hours</h5>
+                                    <ul class="list-unstyled small mb-3">
+                                        <li class="mb-2">
+                                            <strong>Phone Lines:</strong><br>
+                                            <a href="tel:+2542022289000" class="text-decoration-none text-dark">020 222 89000</a> &bull;
+                                            <a href="tel:+254720285819" class="text-decoration-none text-dark">0720 285 819</a> &bull;
+                                            <a href="tel:+254714481158" class="text-decoration-none text-dark">0714 481 158</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <strong>Email:</strong><br>
+                                            <a href="mailto:info@vimakdentalcentre.co.ke" class="text-decoration-none text-primary">info@vimakdentalcentre.co.ke</a>
+                                        </li>
+                                        <li class="mb-0">
+                                            <strong>Opening Hours:</strong><br>
+                                            Monday–Saturday: 8:00 AM – 8:00 PM<br>
+                                            Sunday: 8:00 AM – 5:00 PM
+                                        </li>
+                                    </ul>
+
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="tel:+254720285819" class="btn btn-sm btn-primary">
+                                            <i class="bi bi-telephone-fill"></i> CALL NOW
+                                        </a>
+                                        <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20have%20an%20inquiry."
+                                            target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp">
+                                            <i class="bi bi-whatsapp"></i> WHATSAPP
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9. FINAL CTA SECTION -->
+            <section class="cta-section container my-5">
+                <div class="cta-box">
+                    <div>
+                        <h3 class="fw-bold mb-2">Ready To Take Care Of Your Smile?</h3>
+                        <p class="mb-0" style="color: rgba(255,255,255,0.9);">
+                            Book a visit at our Nairobi or Thika clinic — our dental team is ready to assist you.
+                        </p>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3 justify-content-center">
+                        <a href="#book-appointment" class="btn cta-btn">
+                            <i class="bi bi-calendar2-check"></i> BOOK AN APPOINTMENT
+                        </a>
+                        <a href="tel:+254720285819" class="btn btn-vimak-outline">
+                            <i class="bi bi-telephone-fill"></i> CALL VIMAK DENTAL CENTRE
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Educational Article Modals -->
+        <!-- Modal 1 -->
+        <div class="modal fade" id="eduModal1" tabindex="-1" aria-labelledby="eduModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 shadow">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title fw-bold" id="eduModal1Label">How Often Should You Visit the Dentist?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Routine dental check-ups are an essential part of preventive healthcare. For most adults and children, visiting the dentist every <strong>six months</strong> allows your dental professional to:
+                        </p>
+                        <ul>
+                            <li>Check for early signs of tooth decay before cavities cause pain.</li>
+                            <li>Assess gum health and remove hardened plaque (tartar/calculus) through professional scaling and polishing.</li>
+                            <li>Monitor children's developing teeth and bite alignment.</li>
+                            <li>Provide personalized guidance on brushing, flossing, and diet.</li>
+                        </ul>
+                        <p class="small text-muted bg-light p-3 rounded mb-0">
+                            <strong>Clinical Note:</strong> Depending on your oral health history, gum condition, or ongoing treatments, your dentist may recommend more frequent visits. Always consult a dental professional for an individual assessment.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#book-appointment" class="btn btn-vimak-red" data-bs-dismiss="modal">Book a Check-Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="eduModal2" tabindex="-1" aria-labelledby="eduModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 shadow">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title fw-bold" id="eduModal2Label">What Is a Root Canal Treatment?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            A <strong>root canal treatment</strong> (endodontic therapy) is a dental procedure used to treat infection or irreversible inflammation at the centre of a tooth (the dental pulp).
+                        </p>
+                        <ul>
+                            <li><strong>Why it is done:</strong> When deep tooth decay, a crack, or trauma reaches the inner pulp, bacteria can cause pain, sensitivity, or swelling.</li>
+                            <li><strong>How it works:</strong> The dentist carefully removes the infected pulp tissue, cleans and shapes the root canals, and seals the space with a biocompatible material.</li>
+                            <li><strong>Restoring the tooth:</strong> Afterward, a filling or dental crown is typically placed to protect the tooth and restore normal chewing function.</li>
+                        </ul>
+                        <p class="small text-muted bg-light p-3 rounded mb-0">
+                            <strong>Clinical Note:</strong> Only a clinical examination and dental X-ray can determine whether a tooth requires a filling, root canal treatment, or another solution.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#book-appointment" class="btn btn-vimak-red" data-bs-dismiss="modal">Request Dental Assessment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="eduModal3" tabindex="-1" aria-labelledby="eduModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 shadow">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title fw-bold" id="eduModal3Label">How Can You Protect Your Child's Teeth?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Healthy primary (milk) teeth help children chew comfortably, speak clearly, and hold space for permanent teeth. Parents can support their child's smile by:
+                        </p>
+                        <ul>
+                            <li>Supervising brushing twice a day (morning and before bed) using an age-appropriate fluoride toothpaste.</li>
+                            <li>Limiting frequent sugary snacks, sweets, and sweetened drinks between meals.</li>
+                            <li>Bringing children for regular dental check-ups so they become familiar and comfortable with the clinic environment.</li>
+                            <li>Asking your dentist about preventive options such as topical fluoride or fissure sealants.</li>
+                        </ul>
+                        <p class="small text-muted bg-light p-3 rounded mb-0">
+                            <strong>Clinical Note:</strong> A paediatric dental check-up allows our team to give tailored advice for your child's age and dental development stage.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#book-appointment" class="btn btn-vimak-red" data-bs-dismiss="modal">Book Children's Check-Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 4 -->
+        <div class="modal fade" id="eduModal4" tabindex="-1" aria-labelledby="eduModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 shadow">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title fw-bold" id="eduModal4Label">Why Regular Dental Checkups Matter</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Many dental conditions—such as early cavities or gum disease—develop gradually without immediate pain. Regular dental visits help you stay ahead of dental problems:
+                        </p>
+                        <ul>
+                            <li><strong>Preventive Cleaning:</strong> Professional scaling and polishing remove plaque and tartar buildup along the gumline.</li>
+                            <li><strong>Early Detection:</strong> Identifying small issues early often means simpler, more conservative dental treatment.</li>
+                            <li><strong>Confidence &amp; Comfort:</strong> Maintaining clean teeth and healthy gums supports fresh breath and a confident smile.</li>
+                        </ul>
+                        <p class="small text-muted bg-light p-3 rounded mb-0">
+                            <strong>Clinical Note:</strong> Educational content is provided for general awareness and does not replace an in-person dental examination.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#book-appointment" class="btn btn-vimak-red" data-bs-dismiss="modal">Schedule Your Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer-section py-5 mt-5">
+            <div class="container">
+                <div class="row g-4">
+
+                    <!-- Brand Column -->
+                    <div class="col-lg-4">
+                        <div class="footer-logo-wrap">
+                            <img src="img/vimak-logo.svg" alt="Vimak Dental Centre Logo" class="brand-logo-img">
+                        </div>
+                        <p class="small mb-3" style="color: rgba(255,255,255,0.82);">
+                            <strong>Vimak Dental Centre</strong> &mdash; <em>"Giving you something to smile about."</em> Providing professional, patient-centered dental care and oral health education at our Nairobi and Thika clinics.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="#book-appointment" class="btn btn-sm btn-vimak-red">
+                                Book Appointment
+                            </a>
+                            <a href="https://www.tiktok.com/@_vimak_dental_centre" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-vimak-outline">
+                                <i class="bi bi-tiktok"></i> @_vimak_dental_centre
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-4">
+                        <h6 class="fw-bold mb-3">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Whyus.html">About / Why Choose Us</a></li>
+                            <li><a href="service.html">Our Services</a></li>
+                            <li><a href="team.html">Our Team</a></li>
+                            <li><a href="DentalSolutions.html">Dental Solutions</a></li>
+                            <li><a href="Pricing.html">Appointments &amp; Care</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="col-lg-3 col-md-4">
+                        <h6 class="fw-bold mb-3">Dental Services</h6>
+                        <ul class="footer-links">
+                            <li><a href="service.html#general-dentistry">General Dental Checkups</a></li>
+                            <li><a href="service.html#root-canal">Root Canal Treatment</a></li>
+                            <li><a href="service.html#crowns-bridges">Crowns &amp; Bridges</a></li>
+                            <li><a href="service.html#dental-implants">Dental Implants</a></li>
+                            <li><a href="service.html#childrens-dentistry">Children's Dentistry</a></li>
+                            <li><a href="service.html#oral-hygiene">Oral Hygiene &amp; Scaling</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Clinics, Contact & Opening Hours -->
+                    <div class="col-lg-3 col-md-4">
+                        <h6 class="fw-bold mb-3">Clinics &amp; Contact</h6>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span><strong>Nairobi:</strong> ICEA Building (JKUAT Towers), 2nd Floor</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span><strong>Thika:</strong> Maisha Heights Building, Ground Floor, Kenyatta Avenue</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>
+                                    <a href="tel:+2542022289000">020 222 89000</a> /
+                                    <a href="tel:+254720285819">0720 285 819</a> /
+                                    <a href="tel:+254714481158">0714 481 158</a>
+                                </span>
+                            </li>
+                            <li>
+                                <i class="bi bi-envelope-fill"></i>
+                                <a href="mailto:info@vimakdentalcentre.co.ke">info@vimakdentalcentre.co.ke</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-clock-fill"></i>
+                                <span>
+                                    Mon–Sat: 8:00 AM – 8:00 PM<br>
+                                    Sunday: 8:00 AM – 5:00 PM
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <hr class="my-4 border-light border-opacity-25">
+
+                <!-- Bottom Bar -->
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                    <small style="color: rgba(255,255,255,0.75);">
+                        &copy; 2026 <strong>Vimak Dental Centre</strong>. All Rights Reserved. | Social: <strong>@VimakDentalCentre</strong>
+                    </small>
+
+                    <div class="social-icons d-flex gap-2">
+                        <a href="https://www.tiktok.com/@_vimak_dental_centre" target="_blank" rel="noopener noreferrer" aria-label="Vimak Dental Centre on TikTok" title="TikTok @_vimak_dental_centre">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/254720285819" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Vimak Dental Centre" title="WhatsApp 0720 285 819">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="tel:+254720285819" aria-label="Call Vimak Dental Centre" title="Call 0720 285 819">
+                            <i class="bi bi-telephone-fill"></i>
+                        </a>
+                        <a href="mailto:info@vimakdentalcentre.co.ke" aria-label="Email Vimak Dental Centre" title="Email info@vimakdentalcentre.co.ke">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mobile Quick-Action Bar (Visible on Small Screens) -->
+        <div class="mobile-sticky-bar" aria-label="Quick Mobile Actions">
+            <a href="tel:+254720285819" class="btn btn-sm btn-primary flex-fill py-2">
+                <i class="bi bi-telephone-fill"></i> Call
+            </a>
+            <a href="https://wa.me/254720285819?text=Hello%20Vimak%20Dental%20Centre%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp flex-fill py-2">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+            <a href="#book-appointment" class="btn btn-sm btn-vimak-red flex-fill py-2">
+                <i class="bi bi-calendar2-check"></i> Book
+            </a>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
